@@ -1,1 +1,5 @@
-console.log('Testing... Testing...');
+import loadHeader from './pageLoad';
+import './style.css';
+
+loadHeader();
+
