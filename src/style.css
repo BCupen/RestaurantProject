@@ -22,6 +22,7 @@ body{
 
 header{
     position: sticky;
+    top: 0;
     width: 100vw;
     height: 20vh;
     background-color: var(--seconday-bg);
@@ -56,6 +57,7 @@ button{
     border-right: 2.5rem solid transparent;
     border-radius: 15%;
     margin-bottom: 0.5rem;
+    cursor: pointer;
 }
 
 #content {
