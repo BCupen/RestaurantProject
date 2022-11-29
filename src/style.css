@@ -61,6 +61,21 @@ button{
     cursor: pointer;
 }
 
+button:hover {
+    text-decoration: underline;
+    background-color:var(--seconday-bg);
+    color: var(--primary-bg);
+    border: 0.2rem solid var(--primary-bg);
+    border-left: 2.5rem solid transparent;
+    border-right: 2.5rem solid transparent;
+}
+
+.active {
+    transform: scale(1.1);
+    text-decoration: underline;
+    color: var(--sub-bg);
+}
+
 #content {
     display: flex;
     flex-direction: column;
